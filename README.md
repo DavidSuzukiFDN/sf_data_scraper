@@ -7,9 +7,9 @@ things](https://dl.dropboxusercontent.com/u/567408/gifs/x-all-the-things-templat
 
 * Make sure you install [rvm](https://rvm.io/rvm/install) unless you're okay with installing these gems globally.
 * Enter and follow on-screen instructions
-```bash rvm use . ```
-* enter ```bash gem install bundler && bundle install```
-* finally you can run the script! ```bash ./data_scrape.rb```
+```rvm use . ```
+* enter ```gem install bundler && bundle install```
+* finally you can run the script! ```./data_scrape.rb```
 
 ------------------------------
 
