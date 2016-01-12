@@ -8,8 +8,7 @@ require 'smarter_csv'
 contacts_filepath = '../_backups/2016.01.11.utf8/Contact.csv'
 campaign_members_filepath = '../_backups/2016.01.11.utf8/CampaignMember.csv'
 
-#campaign_members = SmarterCSV.process(campaign_members_filepath)
-pp Benchmark.bm do |bm|
+Benchmark.bm do |bm|
 	bm.report do
     contacts = SmarterCSV.process(contacts_filepath)
   end
